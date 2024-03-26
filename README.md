@@ -9,8 +9,6 @@ So, basically this is a site to generate random backround color which can be cop
 <h2> Why I'm Doing This 🎯 </h2>
 Basically to test my knowledge on Javascript.
 <br>
-
-<br>
 <h2> Ready to Dive In? 🚀 </h2>
 Fell free to use this site to generate color for your upcoming project. Happy coding :) 🎉
 

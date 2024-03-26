@@ -1,7 +1,7 @@
 # Gradient Background Colors 😍 
 This is a special project for me because I've used my 3 weeks of learning javascript into action. I might improve this project in future and deploy for the general public too, till then i want to work on other projects.
 <br>
-<h2> What's It All About? 😀 h2>
+<h2> What's It All About? 😀 </h2>
 So, basically this is a site to generate random backround color which can be copied and used in css for cool looking background.
 
 <br>

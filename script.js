@@ -40,3 +40,20 @@ const clickbutton3 = () => {
 button1.addEventListener('click', clickbutton1);
 button2.addEventListener('click', clickbutton2);
 button3.addEventListener('click', clickbutton3);
+
+// Function to copy background code
+document.getElementById("copyButton").addEventListener("click", function() {
+    const codeToCopy = `linear-gradient(to right, ${rgb1}, ${rgb2})`;
+    // Create a textarea element
+    const textarea = document.createElement("textarea");
+    textarea.value = codeToCopy;
+    textarea.setAttribute("readonly", "");
+    textarea.style.position = "absolute";
+    textarea.style.left = "-9999px"; // Move the textarea off-screen
+    document.body.appendChild(textarea);
+    textarea.select();
+    // Copy the text inside the textarea to clipboard
+    document.execCommand("copy");
+    document.body.removeChild(textarea); // Remove the textarea
+    alert("Background code copied to clipboard!");
+});
